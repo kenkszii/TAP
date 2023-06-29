@@ -6,15 +6,15 @@ import Event from "../../Images/projects/Event.png";
 const projectDatas = [
   {
     id: 1,
-    cover: Ebook,
+    cover: MovieCard,
     github: "https://github.com/WinifredOgbeiwi/Ebook-google-api",
     live: "https://ebooks-google-api-winifredogbeiwi.vercel.app/",
     lang1: "API",
     lang2: "React",
-    lang3: "Tailwind",
-    heading: " Ebook Shelf",
+    lang3: "CSS",
+    heading: "MovieCard",
     description:
-      "A web app utilizing Goggle API that allows users search for any book to read",
+      "A web app that allows users search for their favorite movies",
   },
 
   {

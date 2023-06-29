@@ -1,9 +1,10 @@
 import Html from '../../Images/skillsLogo/html.png'
 import Css from "../../Images/skillsLogo/css.png";
-import Github from "../../Images/skillsLogo/github.png";
+import Github from "../../Images/skillsLogo/git.png";
 import ReactImg from "../../Images/skillsLogo/react.png";
-import Tailwind from "../../Images/skillsLogo/tailwind.png";
+import Tailwind from "../../Images/skillsLogo/sass.png";
 import Javascript from "../../Images/skillsLogo/javascript.png";
+import Python from "../../Images/skillsLogo/python.png";
 const skillsIcon = [
   {
     id: 1,
@@ -20,7 +21,7 @@ const skillsIcon = [
   {
     id: 3,
     src: Tailwind,
-    title: "Tailwind",
+    title: "Sass",
     style: "shadow-cyan-500",
   },
   {
@@ -37,9 +38,15 @@ const skillsIcon = [
     style: "shadow-sky-500",
   },
   {
-    id: 7,
+    id: 6,
     src: Github,
-    title: "Github",
+    title: "Git",
+    style: "shadow-gray-500",
+  },
+  {
+    id: 7,
+    src: Python,
+    title: "Python",
     style: "shadow-gray-500",
   },
 ];
