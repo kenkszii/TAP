@@ -16,7 +16,7 @@ function NavBar() {
     <>
       <nav
         data-aos="fade-down"
-        className="flex justify-between items-center text-black text-lg w-full z-50 px-7 py-2 fixed border-b-[1px] border-gray-100 bg-white"
+        className="flex justify-between items-center text-black text-lg w-full z-50 px-7 py-2 fixed border-b-[1px] border-[#2a4f7b] bg-[#2a4f6a]"
       >
         <div>
          <a href="/"> <img src={Logo} alt="" className="w-12" /> </a>

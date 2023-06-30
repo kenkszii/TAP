@@ -2,42 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Source+Sans+Pro:wght@100;300;400;500;700;900&family=Vidaloka&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: white;
-font-family: 'Source Sans Pro', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Source+Sans+Pro:wght@100;300;400;500;700;900&family=Vidaloka&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2a4f6a;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-h1{
-font-family: 'monospace';
+h1 {
+  font-family: "monospace";
 }
 
-section{
+section {
   padding: 2rem 5rem;
   scroll-snap-type: mandatory;
   scroll-margin-top: -20px;
 }
 @media (max-width: 640px) {
-    section{
-        padding: 1rem ;
-    }
+  section {
+    padding: 1rem;
+  }
 }
 img {
-    -webkit-filter: grayscale(0%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
 }
-img:hover{
-    -webkit-filter: grayscale(100%);
-        /* Safari 6.0 - 9.0 */
-        filter: grayscale(100%);
-}
-
-.h1, h2, h3, h4, p, a {
-    color: #2a4f6a !important;
+img:hover {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
-
+.h1,
+h2,
+h3,
+h4,
+p,
+a {
+  color: white !important;
+}

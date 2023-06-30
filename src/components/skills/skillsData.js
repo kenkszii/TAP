@@ -39,12 +39,18 @@ const skillsIcon = [
   },
   {
     id: 6,
+    src: ReactImg,
+    title: "React",
+    style: "shadow-sky-500",
+  },
+  {
+    id: 7,
     src: Github,
     title: "Git",
     style: "shadow-gray-500",
   },
   {
-    id: 7,
+    id: 8,
     src: Python,
     title: "Python",
     style: "shadow-gray-500",

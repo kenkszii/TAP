@@ -1,4 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+background color
+#2a4f6a
 
 # dependencies
 /node_modules

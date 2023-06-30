@@ -1,4 +1,4 @@
-import Ebook from '../../Images/projects/ebook.png'
+import MovieCard from '../../Images/projects/MovieCard.png'
 import Lokum from "../../Images/projects/lokum.png";
 import ShortenUrl from "../../Images/projects/shorten-url.png";
 import Todo from "../../Images/projects/todo.png";
