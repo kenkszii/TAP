@@ -19,7 +19,7 @@ const SmediaData = [
         <FaTwitter size={20} />
       </>
     ),
-    href: "https://twitter.com/kenkszii",
+    href: "https://twitter.com/kenkszii1",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const SmediaData = [
         <FaLinkedin size={20} />
       </>
     ),
-    href: "https://www.linkedin.com/in/winifredogbeiwi/",
+    href: "https://www.linkedin.com/in/theophilus-ayano-0196b0148",
   },
   {
     id: 4,
