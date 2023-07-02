@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Logo from '../../Images/logo.png'
+import Logo from '../../Images/logo1.png'
 import navLinks from "./navLinks";
 import { Link } from "react-scroll";
 import Aos from "aos";
@@ -16,7 +16,7 @@ function NavBar() {
     <>
       <nav
         data-aos="fade-down"
-        className="flex justify-between items-center text-black text-lg w-full z-50 px-7 py-2 fixed border-b-[1px] border-[#2a4f7b] bg-[#2a4f6a]"
+        className="flex justify-between items-center text-black text-lg w-full z-50 px-7 py-2 fixed  border-[#15154d] bg-[#15154d] shadow-2xl border-2 border-transparent"
       >
         <div>
          <a href="/"> <img src={Logo} alt="" className="w-12" /> </a>

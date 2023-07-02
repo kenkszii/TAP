@@ -6,9 +6,9 @@ import { FaGithubSquare } from "react-icons/fa";
 
 function Projects() {
   const langStyle = {
-    border: "1px solid #2a4f6a",
-    backgroundColor: "rgb(255, 255, 255)",
-    boxShadow: "#2a4f6a 3px 3px",
+    border: "1px solid #fff",
+    backgroundColor: "#15154d",
+    boxShadow: "#fff 3px 3px",
     padding: "0 5px",
     fontSize: ".6rem",
 

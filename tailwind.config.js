@@ -22,7 +22,7 @@ module.exports = {
     extend: {
       colors: {
         myGradient: {
-          start: "#2a4f6a",
+          start: "#15154d",
           end: "#ffffff",
         },
       },

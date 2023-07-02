@@ -13,7 +13,7 @@ function Skills() {
 
         <div 
         className="flex flex-wrap justify-center gap-10">
-          {skillsIcon.map(({ id, src, title }) => (
+          {skillsIcon.map(({ id, src, title, level }) => (
             <div
               data-aos="fade-right"
               key={id}
@@ -24,8 +24,11 @@ function Skills() {
                   data-aos="fade-up" 
                   src={src} alt="" className="w-20 lg:w-full" />
                   <p className="mt-4 text-center font-semibold text-xs sm:text-base">
-                    {title}
+                    {title}&nbsp;{level}
                   </p>
+                  {/* <p className="mt-4 text-center font-semibold text-xs sm:text-base">
+                    {level}
+                  </p> */}
               </div>
             </div>
           ))}

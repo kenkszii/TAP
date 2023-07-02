@@ -36,7 +36,7 @@ function Contact() {
               className='p-2 border-2 rounded-md focus:outline-none'></textarea>
             <button 
             type='submit' 
-              className='secondDiv text-xl font-bold text-center px-16 py-3 mb-10 hover:scale-110' style={{color:'#2a4f6a'}}>Send</button>
+              className='secondDiv text-xl font-bold text-center px-16 py-3 mb-10 hover:scale-110' style={{color:'#ffff'}}>Send</button>
           </form>
           
         </div>

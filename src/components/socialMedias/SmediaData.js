@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa'
 import { MdMailOutline } from 'react-icons/md'
 const SmediaData = [
   {
@@ -9,7 +9,7 @@ const SmediaData = [
         <FaGithub size={20} />
       </>
     ),
-    href: "https://github.com/WinifredOgbeiwi"
+    href: "https://github.com/kenkszii"
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const SmediaData = [
         <FaTwitter size={20} />
       </>
     ),
-    href: "https://twitter.com/winifredogbeiwi",
+    href: "https://twitter.com/kenkszii",
   },
   {
     id: 3,
@@ -39,7 +39,17 @@ const SmediaData = [
         <MdMailOutline size={20} />
       </>
     ),
-    href: "mailto:imadeogbeiwi@gmail.com",
+    href: "mailto:kenkszii@gmail.com",
+  },
+  {
+    id: 5,
+    child: (
+      <>
+        Whatsapp
+        <FaWhatsapp size={20} />
+      </>
+    ),
+    href: "https://wa.me/08181659815",
   },
 ];
 export default SmediaData

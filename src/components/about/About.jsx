@@ -1,6 +1,6 @@
 import React from "react";
 import Headings from "../subComponents/Headings";
-import MyPic from "../../Images/my-pic.png";
+import MyPic from "../../Images/bg2.png";
 function About() {
   return (
     <section

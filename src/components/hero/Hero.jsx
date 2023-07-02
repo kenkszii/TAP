@@ -17,7 +17,7 @@ function Hero() {
 
             <div data-aos='fade-left'>
               <a href="./Winifred Imade Ogbeiwi.pdf" download={true}>
-                <button className='cv w-fit px-6 py-3 my-2 flex items-center rounded-md bg-white cursor-pointer group shadow-2xl gap-4 text-lg mt-6 border-2 border-transparent' >Download CV
+                <button className='cv w-fit px-6 py-3 my-2 flex items-center rounded-md bg-[#15154d] cursor-pointer group shadow-2xl gap-4 text-lg mt-6 border-2 border-transparent' >Download CV
 
                   <span className='group-hover:rotate-90 duration-300'><MdDoubleArrow />
                   </span>
