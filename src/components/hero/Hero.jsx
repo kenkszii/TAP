@@ -9,11 +9,11 @@ function Hero() {
           <div>
             <h4
               data-aos='fade-right'
-              className='flex justify-start text-sm sm:text-lg'>Hi, I a am </h4>
+              className='flex justify-start text-sm sm:text-lg'>Hi, I am </h4>
             <h1
               data-aos='fade-left'
               className='text-2xl sm:text-6xl' style={{color:"#ffff"}}>Theophilus Ayano</h1>
-            <p data-aos='fade-right' className='mt-6 text-xs sm:text-lg'>I aim to transform ideas into reality by combining  creativity and process driven development <br />to create functional and user friendly web application</p>
+            <p data-aos='fade-right' className='mt-6 text-xs sm:text-lg'>A full-stack developer who is aimed at bringing ideas to life through a fusion of creativity <br /> and process-driven development by crafting functional and user-friendly web applications.</p>
 
             <div data-aos='fade-left'>
               <a href="./Winifred Imade Ogbeiwi.pdf" download={true}>
