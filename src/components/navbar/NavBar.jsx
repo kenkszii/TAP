@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import Logo from '../../Images/logo1.png'
-import navLinks from "./navLinks";
 import { Link } from "react-scroll";
+import { FaBars, FaTimes } from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css";
+
+import Logo from '../../Images/logo.png'
+import navLinks from "./navLinks";
+
 
 function NavBar() {
   const [nav, setNav] = useState(false);

@@ -9,25 +9,7 @@ import typescript from '../../Images/skillsLogo/typescript.png';
 import flask from "../../Images/skillsLogo/flask.png";
 import restapi from "../../Images/skillsLogo/restapi.png";
 import java from "../../Images/skillsLogo/java1.png";
-import mysql from "../../Images/skillsLogo/mysql.png";
-import bootsrap from "../../Images/skillsLogo/bootsrap.png";
-import coreldraw from "../../Images/skillsLogo/coreldraw.png";
-import django from "../../Images/skillsLogo/django.png";
-import gulpjs from "../../Images/skillsLogo/gulpjs1.png";
-import jquery from "../../Images/skillsLogo/jqueryy.png";
-import mongodb from "../../Images/skillsLogo/mongodb.png";
-import nodejs from "../../Images/skillsLogo/nodejs.png";
-import npm from "../../Images/skillsLogo/npm.png";
-import pip from "../../Images/skillsLogo/pip.png";
-import postman from "../../Images/skillsLogo/postmann.png";
-import sqlalchemy from "../../Images/skillsLogo/sqlachemy.png";
-import tailwind from "../../Images/skillsLogo/tailwind.png";
-import webpack from "../../Images/skillsLogo/webpack1.png";
-import windows from "../../Images/skillsLogo/windows2.png";
-import linux from "../../Images/skillsLogo/linux2.png";
-import yarn from "../../Images/skillsLogo/yarn.png";
-import sqlite from "../../Images/skillsLogo/sqlite.png";
-import digitalmarketing from "../../Images/skillsLogo/digitalmarketing1.png";
+
 const skillsIcon = [
   {
     id: 1,
@@ -56,7 +38,7 @@ const skillsIcon = [
     src: Javascript,
     title: "Javascript",
     style: "shadow-yellow-500",
-    level: "70",
+    level: "70%",
   },
 
   {

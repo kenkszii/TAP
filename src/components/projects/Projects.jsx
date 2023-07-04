@@ -12,7 +12,7 @@ function Projects() {
     padding: "0 5px",
     fontSize: ".6rem",
 
-    
+
   };
 
   return (
@@ -20,9 +20,9 @@ function Projects() {
       <section name="projects" data-aos="fade-down" className="mt-20">
         <Headings title="Projects" />
         <div>
-          <div 
-          data-aos="fade-down" 
-          className="flex flex-wrap justify-center  gap-10">
+          <div
+            data-aos="fade-down"
+            className="flex flex-wrap justify-center  gap-10">
             {projectDatas.map((data) => (
 
               <div key={data.id} className="secondDiv p-2 sm:p-5 rounded-lg w-fit">
@@ -37,6 +37,10 @@ function Projects() {
                   <p style={langStyle}>{data.lang1}</p>
                   <p style={langStyle}>{data.lang2}</p>
                   {data.lang3 && <p style={langStyle}>{data.lang3}</p>}
+                  {data.lang4 && <p style={langStyle}>{data.lang4}</p>}
+                  {data.lang5 && <p style={langStyle}>{data.lang5}</p>}
+                  {data.lang6 && <p style={langStyle}>{data.lang6}</p>}
+                  {data.lang7 && <p style={langStyle}>{data.lang7}</p>}
                 </div>
                 <h4 className="font-bold text-sm">{data.heading}</h4>
                 <p className="text-xs w-72">{data.description}</p>
@@ -47,7 +51,7 @@ function Projects() {
                   {data.github && <a href={data.github} target="_blank" rel="noreferrer">
                     <FaGithubSquare className="hover:scale-110" />
                   </a>}
-                 
+
                 </div>
               </div>
 

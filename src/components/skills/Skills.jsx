@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { MdDoubleArrow } from 'react-icons/md'
 
 import Headings from "../subComponents/Headings";
 import skillsIcon2 from "./skillsData";
@@ -69,17 +68,16 @@ function Skills() {
             </div>
 
           )}
-        <a>
+ 
           <button
-            className="cv w-fit px-6 py-3 my-2 flex items-center rounded-md bg-[#15154d] cursor-pointer group shadow-2xl gap-4 text-lg mt-6 border-2 border-transparent"
+            className="cv w-fit px-6 py-3 my-2 flex items-center  rounded-md bg-[#15154d] cursor-pointer group shadow-2xl gap-4 text-lg mt-6 border-2 border-transparent"
             onClick={handleButtonClick}
           >
             {isShown ? "Showless" : "Readmore"}
             <span className="group-hover:rotate-90 duration-300">
-              <MdDoubleArrow />
             </span>
           </button>
-        </a>
+     
         </div>
       </section >
     </>

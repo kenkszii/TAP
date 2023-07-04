@@ -1,7 +1,24 @@
 import React from 'react'
+import TextTransition, { presets } from 'react-text-transition';
+
 import { MdDoubleArrow } from 'react-icons/md'
 import '../subComponents/BoxStyle.css'
+
+
+
+const TEXTS = ['Forest', 'Building', 'Tree', 'Color'];
+
 function Hero() {
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      5000, // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
   return (
     <>
       <section name='home' className="h-screen">
@@ -9,11 +26,26 @@ function Hero() {
           <div>
             <h4
               data-aos='fade-right'
-              className='flex justify-start text-sm sm:text-lg'>Hi, I am </h4>
+              className='flex justify-start text-sm sm:text-lg'>
+              Hi, I am
+            </h4>
             <h1
               data-aos='fade-left'
-              className='text-2xl sm:text-6xl' style={{color:"#ffff"}}>Theophilus Ayano</h1>
-            <p data-aos='fade-right' className='mt-6 text-xs sm:text-lg'>A full-stack developer who is aimed at bringing ideas to life through a fusion of creativity <br /> and process-driven development by crafting functional and user-friendly web applications.</p>
+              className='text-2xl sm:text-6xl' style={{ color: "#ffff" }}>
+              Theophilus Ayano
+            </h1>
+            <p data-aos='fade-right' className='mt-6 text-xs sm:text-lg'>
+
+              I am an experienced <span style={{ display: 'inline-block',  color: '#00ff00', textDecoration: "underline", }}>
+                <TextTransition springConfig={presets.wobbly}>
+                  {TEXTS[index % TEXTS.length]}
+                </TextTransition>
+              </span> with 13 years of expertise in cyberspace,
+              I am dedicated to transforming ideas into reality through a harmonious blend of creativity and process-driven development.
+
+              <br />
+              With a strong focus on crafting functional and user-friendly web applications.
+            </p>
 
             <div data-aos='fade-left'>
               <a href="./Winifred Imade Ogbeiwi.pdf" download={true}>
@@ -36,3 +68,4 @@ function Hero() {
 }
 
 export default Hero
+

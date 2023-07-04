@@ -1,7 +1,7 @@
 import MovieCard from '../../Images/projects/MovieCard.png'
 import Lokum from "../../Images/projects/lokum.png";
-import ShortenUrl from "../../Images/projects/shorten-url.png";
-import Todo from "../../Images/projects/todo.png";
+import BiteExpress from "../../Images/projects/express.png";
+import Plominod from "../../Images/projects/Plominod.png";
 import Event from "../../Images/projects/Event.png";
 const projectDatas = [
   {
@@ -19,27 +19,36 @@ const projectDatas = [
 
   {
     id: 2,
-    cover: ShortenUrl,
-    github: "https://github.com/WinifredOgbeiwi/URL-Shortener",
-    live: "https://url-shortener-winifredogbeiwi.vercel.app/",
+    cover: BiteExpress,
+    // github: "https://github.com/WinifredOgbeiwi/URL-Shortener",
+    live: "https://biteexpress.ng/",
     lang1: "API",
     lang2: "React",
-    lang3: "Tailwind",
-    heading: " Url Shorten",
+    lang3: "JavaScript",
+    lang4: "Css",
+    lang5: "Flask",
+    lang6: "python",
+    lang7: "MySQL",
+    lang8: "Html",
+    heading: "BiteExpress",
     description:
-      "A web app utilizing Goggle API that allows users to shorten URL links",
+      "BiteExpress is a delivery platform that connects users to Vendors and riders/Drivers",
   },
   {
     id: 3,
-    cover: Todo,
-    github: "https://github.com/WinifredOgbeiwi/Todo-List",
-    live: "todo-list-winifredogbeiwi.vercel.app",
+    cover: Plominod,
+    // github: "https://github.com/WinifredOgbeiwi/Todo-List",
+    live: "https://expowertechnology.pythonanywhere.com/",
     lang1: "HTML",
     lang2: "CSS",
     lang3: "JavaScript",
-    heading: "Todo List",
+    lang4: "Flask",
+    lang5: "APi",
+    lang6: "Jquery",
+    lang7: "Sqlite",
+    heading: "Plominod",
     description:
-      "A web app inclusive of a login and sign in page that allows users to input tasks with the ability to edit and delete ",
+      "Plominod is a play to earn web app that rewards it's users for completion of tasks from the comfort of their homes",
   },
   {
     id: 4,
