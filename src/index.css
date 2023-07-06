@@ -44,3 +44,7 @@ p,
 a, button {
   color: white !important;
 }
+.text-black {
+  --tw-text-opacity: 1;
+  color: white;
+}

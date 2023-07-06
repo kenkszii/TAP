@@ -54,7 +54,7 @@ function NavBar() {
         </div>
         {nav && (
           <ul
-            className="flex flex-col justify-center items-center absolute top-0 right-0 w-2/3 h-screen bg-white border-l-[1px] border-gray-100">
+            className="flex flex-col justify-center items-center absolute top-0 right-0 w-2/3 h-screen border-l-[1px] border-gray-100">
             {navLinks.map(({ id, link }) => {
               return (
                 <li
