@@ -7,8 +7,8 @@ const projectDatas = [
   {
     id: 1,
     cover: MovieCard,
-    github: "https://github.com/WinifredOgbeiwi/Ebook-google-api",
-    live: "https://ebooks-google-api-winifredogbeiwi.vercel.app/",
+    github: "kshttps://github.com/kenkszii/Movie-Card",
+    live: "https://moviecardd.netlify.app/moviecard",
     lang1: "API",
     lang2: "React",
     lang3: "CSS",
@@ -20,7 +20,6 @@ const projectDatas = [
   {
     id: 2,
     cover: BiteExpress,
-    // github: "https://github.com/WinifredOgbeiwi/URL-Shortener",
     live: "https://biteexpress.ng/",
     lang1: "API",
     lang2: "React",
@@ -37,7 +36,6 @@ const projectDatas = [
   {
     id: 3,
     cover: Plominod,
-    // github: "https://github.com/WinifredOgbeiwi/Todo-List",
     live: "https://expowertechnology.pythonanywhere.com/",
     lang1: "HTML",
     lang2: "CSS",
@@ -45,7 +43,7 @@ const projectDatas = [
     lang4: "Flask",
     lang5: "APi",
     lang6: "Jquery",
-    lang7: "Sqlite",
+    lang7: "MySql",
     heading: "Plominod",
     description:
       "Plominod is a play to earn web app that rewards it's users for completion of tasks from the comfort of their homes",

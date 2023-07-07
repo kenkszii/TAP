@@ -2,7 +2,7 @@ import React from 'react';
 import { MdDoubleArrow } from 'react-icons/md';
 
 // import $ from 'jquery';
-// // import "../../plugin/animated-headline-master/js/jquery-2.1.1.js"
+// import "../../plugin/animated-headline-master/js/jquery-2.1.1.js"
 // import "../../plugin/animated-headline-master/js/main.js"
 import '../subComponents/BoxStyle.css';
 // import "../../plugin/animated-headline-master/css/reset.css"
