@@ -54,8 +54,15 @@ const projectDatas = [
     github: "https://github.com/WinifredOgbeiwi/Lokum-HeathCare-Service",
     live: "https://lokum-healthcare.netlify.app/",
     lang1: "React",
-    lang2: "Tailwind",
-    heading: "Lokum Med-Health Care",
+    lang2: "HTML",
+    lang3: "Flask",
+    lang4: "Python",
+    lang5: "Javascript",
+    lang6: "CSS",
+    lang7: "RestAPI",
+    lang8: "SQLALCHEMY",
+
+    heading: "Recipe Library",
     description:
       "A Landing page for Lokum Med-Health Care that incorporated FAQ section",
   },

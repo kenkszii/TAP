@@ -3,7 +3,7 @@ import SmediaData from './SmediaData'
 function SocialMedia() {
   return (
     <aside data-aos="fade-up"
-     className='hidden lg:block top-[50%] left-0 fixed z-50' >
+     className='hidden lg:block media top-[50%] left-0 fixed z-50' >
       <ul className='bg-transparent'>
         {SmediaData.map(({ id, child, href }) => (
           <li key={id}
