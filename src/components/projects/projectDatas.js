@@ -1,8 +1,8 @@
 import MovieCard from '../../Images/projects/MovieCard.png'
-import Lokum from "../../Images/projects/lokum.png";
+import RecipeLibrary from "../../Images/projects/RecipeLibrary.png";
 import BiteExpress from "../../Images/projects/express.png";
 import Plominod from "../../Images/projects/Plominod.png";
-import Event from "../../Images/projects/Event.png";
+import Portfolio from "../../Images/projects/portfolio.png";
 const projectDatas = [
   {
     id: 1,
@@ -50,9 +50,9 @@ const projectDatas = [
   },
   {
     id: 4,
-    cover: Lokum,
-    github: "https://github.com/WinifredOgbeiwi/Lokum-HeathCare-Service",
-    live: "https://lokum-healthcare.netlify.app/",
+    cover: RecipeLibrary,
+    github: "https://github.com/kenkszii/RecipeLibrary",
+    // live: "https://lokum-healthcare.netlify.app/",
     lang1: "React",
     lang2: "HTML",
     lang3: "Flask",
@@ -64,17 +64,20 @@ const projectDatas = [
 
     heading: "Recipe Library",
     description:
-      "A Landing page for Lokum Med-Health Care that incorporated FAQ section",
+      "Recipe Library is a web application that that allows its users to create and manage their own recipes",
   },
   {
     id: 5,
-    cover: Event,
+    cover: Portfolio,
+    live: "https://sheyi.tech/",
     lang1: "React",
     lang2: "Tailwind",
-    lang3: "Material Ui",
-    heading: "E-VENT",
+    lang3: "CSS",
+    lang4: "Javascript",
+    lang5: "HTML",
+    heading: "My_Portfolio",
     description:
-      "Voluntary/Contributing in building a SASS app in Circle Community",
+      "My Portfolio",
   },
  
 ];
