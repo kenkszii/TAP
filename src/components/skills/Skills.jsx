@@ -70,7 +70,7 @@ function Skills() {
           )}
  
           <button
-            className="cv w-fit px-6 py-3 my-2 flex items-center  rounded-md bg-[#15154d] cursor-pointer group shadow-2xl gap-4 text-lg mt-6 border-2 border-transparent"
+            className="cv w-fit px-6 py-3 my-2 flex items-center  rounded-md bg-[#15154d] bt-shadow cursor-pointer group shadow-2xl gap-4 text-lg mt-6 border-2 border-transparent"
             onClick={handleButtonClick}
           >
             {isShown ? "Showless" : "Readmore"}

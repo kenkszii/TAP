@@ -1,14 +1,27 @@
-import React,{useState} from "react";
-
+import React, { useState } from "react";
+import TextTransition, { presets } from 'react-text-transition';
 
 import Headings from "../subComponents/Headings";
-import MyPic from "../../Images/Untitled-2.png";
+import MyPic from "../../Images/bg-image.jpg";
+
+const TEXTS = ['Full-Stack Developer', 'Sales Manager', 'Entrepreneur', 'IT Consultant'];
 function About() {
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      3000, // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
   const [isShown, setIsShown] = useState(false);
 
   const handleButtonClick = () => {
     setIsShown(!isShown);
   };
+
   return (
     <section
       name="about"
@@ -20,6 +33,10 @@ function About() {
         <div className=" basis-1/2 p-2 sm:p-5 ">
           <div className="firstDiv p-1 sm:p-5 ">
             <div className="secondDiv rounded p-2 sm:p-5 text-sm sm:text-lg">
+              <span style={{ display: "inline-block" }} data-aos="fade-right">
+
+                <TextTransition className="animated aniabout" springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
+              </span>
               <p data-aos="fade-right">
                 I am an intrinsically driven full-stack developer with experience working as a sales manager as well.
                 I possess boundless creativity, innovation, and an unwavering passion for my work.
@@ -44,7 +61,7 @@ function About() {
                 </>
               )}
               <button
-                className="cv w-fit px-6 py-3 my-2 flex items-center  rounded-md bg-[#15154d] cursor-pointer group shadow-2xl gap-4 text-lg mt-6 border-2 border-transparent"
+                className="cv w-fit px-6 py-3 my-2 flex items-center  rounded-md bg-[#15154d] cursor-pointer group bt-shadow shadow-2xl gap-4 text-lg mt-6 border-2 border-transparent"
                 onClick={handleButtonClick}
               >
                 {isShown ? "Showless" : "Readmore"}

@@ -1,27 +1,25 @@
 import React from 'react';
 import { MdDoubleArrow } from 'react-icons/md';
+import TextTransition, { presets } from 'react-text-transition';
 
-// import $ from 'jquery';
-// import "../../plugin/animated-headline-master/js/jquery-2.1.1.js"
-// import "../../plugin/animated-headline-master/js/main.js"
 import '../subComponents/BoxStyle.css';
-// import "../../plugin/animated-headline-master/css/reset.css"
-// import "../../plugin/animated-headline-master/css/reset.css"
+
+
+const TEXTS = ['Full-Stack Developer', 'Sales Manager', 'Entrepreneur', 'IT Consultant'];
 
 function Hero() {
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      3000, // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
 
   return (
     <>
-      {/* <section class="cd-intro">
-        <h1 class="cd-headline slide">
-          <span>My favourite food is</span>
-          <span class="cd-words-wrapper">
-            <b class="is-visible">pizza</b>
-            <b>sushi</b>
-            <b>steak</b>
-          </span>
-        </h1>
-      </section> */}
 
       <section name='home' className="h-screen">
         <div className='flex flex-col items-center justify-center h-full px-5'>
@@ -33,9 +31,14 @@ function Hero() {
               Theophilus Ayano
             </h1>
             <p data-aos='fade-right' className='mt-6 text-xs sm:text-lg'>
-              I am an experienced
+              I am a creative, innovative and results-driven&nbsp;
+              <span style={{ display: "inline-block" }}>
 
-              with 13 years of expertise in cyberspace. I am dedicated to transforming ideas into reality through a harmonious blend of creativity and process-driven development.
+                <TextTransition className="animated" springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
+              </span>
+              &nbsp;with 13 years of expertise in cyberspace. 
+              <br />
+              I am dedicated to transforming ideas into reality through a harmonious blend of creativity and process-driven development.
               <br />
               With a strong focus on crafting functional and user-friendly web applications.
             </p>
