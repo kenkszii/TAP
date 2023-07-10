@@ -14,7 +14,7 @@ const projectDatas = [
     lang3: "CSS",
     heading: "MovieCard",
     description:
-      "A web app that allows users search for their favorite movies",
+      "A web app that allows users to search for their favorite movies",
   },
 
   {
