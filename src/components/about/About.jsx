@@ -4,7 +4,7 @@ import TextTransition, { presets } from 'react-text-transition';
 import Headings from "../subComponents/Headings";
 import MyPic from "../../Images/bg-image.jpg";
 
-const TEXTS = ['Full-Stack Developer', 'Sales Manager', 'Entrepreneur', 'IT Consultant'];
+const TEXTS = ['Full-Stack Developer', 'Sales Manager', 'Entrepreneur', 'IT Specialist'];
 function About() {
   const [index, setIndex] = React.useState(0);
 
