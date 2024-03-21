@@ -5,7 +5,7 @@ import TextTransition, { presets } from 'react-text-transition';
 import '../subComponents/BoxStyle.css';
 
 
-const TEXTS = ['Full-Stack Developer', 'Sales Manager', 'Entrepreneur', 'IT Consultant'];
+const TEXTS = ['Full-Stack Developer', 'Sales Manager', 'Entrepreneur', 'IT Specialist'];
 
 function Hero() {
   const [index, setIndex] = React.useState(0);
